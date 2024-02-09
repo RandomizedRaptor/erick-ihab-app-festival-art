@@ -1,3 +1,10 @@
 /*Styles Generaux*/
+nav {
+    background-color: var(--rose);
+    width: 100%;
+}
 
+.logo {
+    width: 200px;
+}
 /*Section Hero*/
