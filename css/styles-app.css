@@ -1,3 +1,29 @@
 /*Styles Generaux*/
 
+nav {
+    background-color: var(--rose);
+}
+
+.logo {
+    width: 200px;
+}
+
+.icon {
+    width: 50px;
+}
+
+footer {
+    background-color: var(--brun);
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.texte {
+    color: var(--rose);
+}
+
 /*Section Hero*/
