@@ -1,7 +1,8 @@
 /*Styles Generaux*/
-nav {
+#navbar1 {
     background-color: var(--rose);
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .logo {
@@ -9,10 +10,11 @@ nav {
 }
 
 footer {
-    background-color: var(--gris);
+    background-color: var(--brun);
     padding: 1rem;
     margin-top: 1rem;
     text-align: center;
+    color: var(--blanc);
 }
 
 a[href*="github"] {
@@ -26,6 +28,10 @@ a[href*="github"]:hover {
 }
 
 /*Section Hero*/
+#hero {
+    margin-top: 6rem;
+}
+
 .titre1 {
     font-family: var(--oswald);
     font-size: 48px;
@@ -35,25 +41,28 @@ a[href*="github"]:hover {
 .titre2 {
     font-family: var(--noto-sans);
     color: var(--gris);
-    font-size: 28px;
-    margin: 15px;
+    font-size: 35px;
+    margin: 22px;
 }
 
-.telecharge {
+.btn {
     color: var(--blanc);
     background-color: var(--rouge);
-    margin: 15px;
+    margin: 15px 15px 25px;
     width: 70%;
     border-radius: 50px;
     border: none;
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-family: var(--noto-sans);
+    display: flex;
+    justify-content: center;
 }
 
 .cadre {
     width: 100%;
     aspect-ratio: 5/9;
+    border-radius: 6px;
     box-shadow: 0px 2px 4px 6px rgba(0,0,0,0.25);
 }

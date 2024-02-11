@@ -21,7 +21,7 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar1">
     <header>
-      <nav id="navbar1" class="navbar navbar-light navbar-expand-lg">
+      <nav id="navbar1" class="navbar navbar-light navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#top" class="nav-link">
             <img src="/assets/logo/logo.png" class="logo" />
@@ -38,7 +38,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div id="mainNav" class="collapse navbar-collapse navbar-fixed-top">
+          <div id="mainNav" class="collapse navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a href="#hero" class="nav-link">L'appli</a>
@@ -60,21 +60,19 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main id="hero">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-6"> 
+        <div class="row justify-content-center row align-items-center">
+          <div class="col-12 col-lg-4">
             <h1 class="titre1">
-            Besoin de plus d'informations à portée de main?
+              Besoin de plus d'informations à portée de main?
             </h1>
             <h6 class="titre2">
-            Notre nouvelle application a tout ce dont vous avez besoin
+              Notre nouvelle application a tout ce dont vous avez besoin
             </h6>
-            <button class="telecharge">
-              Télécharger ici
-            </button>
+            <button class="btn btn-danger">Télécharger ici</button>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-3 offset-lg-1">
             <div class="cadre">
               <iframe src="/app/index.html"></iframe>
             </div>
@@ -88,7 +86,10 @@
           <div class="col-lg-6 order-lg-1">Érick Ouellette</div>
           <div class="col-lg-6 order-lg-3">Ihab Mouhajer</div>
           <div class="col-lg-6 order-lg-2">
-            <a href="https://github.com/RandomizedRaptor/erick-ihab-app-festival-art">Github</a>
+            <a
+              href="https://github.com/RandomizedRaptor/erick-ihab-app-festival-art"
+              >Github</a
+            >
           </div>
           <div class="col-lg-6 order-lg-4">©2024</div>
         </div>
