@@ -26,4 +26,22 @@ footer {
     color: var(--rose);
 }
 
+.form {
+    position: absolute;
+    top: 10%;
+}
+
+.button {
+    overflow: hidden;
+    position: static;
+    
+}
+
+.btn {
+    position: absolute;
+    top: 15%;
+    
+    
+}
+
 /*Section Hero*/
