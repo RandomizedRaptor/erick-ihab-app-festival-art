@@ -15,7 +15,6 @@ footer {
     margin-top: 1rem;
     text-align: center;
     color: var(--blanc);
-    bottom: 0;
 }
 
 a[href*="github"] {
