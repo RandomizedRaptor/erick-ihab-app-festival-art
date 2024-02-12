@@ -25,17 +25,17 @@ footer {
 
 .texte {
     color: var(--rose);
+    margin-top: 5rem;
+    
 }
 
 .form {
-    position: absolute;
-    top: 10%;
+    margin-top: 6rem;
 }
 
 
 .btn {
-    position: absolute;
-    top: 15%;
+    margin-top: 10rem;
 }
 
 /*Section Hero*/
