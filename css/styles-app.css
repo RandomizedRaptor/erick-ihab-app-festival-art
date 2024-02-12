@@ -6,7 +6,7 @@ nav {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
 }
 
 .icon {
@@ -25,17 +25,27 @@ footer {
 
 .texte {
     color: var(--rose);
-    margin-top: 5rem;
+    
     
 }
 
 .form {
-    margin-top: 6rem;
+    margin-top: -7rem;
 }
 
 
-.btn {
+.navbar-toggler {
+    color: var(--rouge);
+}
+
+.filters {
+    overflow: hidden;
     margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
 }
 
+ul {
+    list-style: none;
+}
 /*Section Hero*/
