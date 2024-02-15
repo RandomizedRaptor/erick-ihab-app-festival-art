@@ -1,3 +1,5 @@
+@import "../vendors/bootstrap-5.3.2/scss/bootstrap.scss";
+
 $light:      #f9ece9;
 $dark:       #221614;
 $primary:    #df1141;
@@ -8,7 +10,7 @@ $warning:    #ffc378;
 $danger:     #f60569;
  
 $theme-colors: (
-    "light":      #f9ece9,
+    "light":      #f9ece9
     "dark":       #221614,
     "primary":    #df1141,
     "secondary":  #7956a2,
@@ -17,5 +19,3 @@ $theme-colors: (
     "warning":    #ffc378,
     "danger":     #f60569,
 );
-
-@import "../vendors/bootstrap-5.3.2/scss/bootstrap.scss";
