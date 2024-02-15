@@ -6,7 +6,7 @@ nav {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
 }
 
 .icon {
@@ -25,7 +25,8 @@ footer {
 
 .texte {
     color: var(--rose);
-    font-size: 10px;
+    
+    
 }
 
 .form {
@@ -46,9 +47,5 @@ footer {
 
 ul {
     list-style: none;
-}
-
-.TIM {
-    width: 200px;
 }
 /*Section Hero*/
