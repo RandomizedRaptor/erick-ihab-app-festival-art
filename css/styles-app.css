@@ -1,5 +1,9 @@
 /*Styles Generaux*/
 
+body {
+    overflow-x: hidden;
+}
+
 nav {
     background-color: var(--rose);
     
@@ -21,6 +25,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-decoration: none;
 }
 
 .texte {
@@ -48,4 +53,35 @@ footer {
 ul {
     list-style: none;
 }
+
+
+.card-img-top {
+    height: 20vh;
+    object-fit: fill;
+    
+    
+}
+
+h3 {
+    text-decoration: none;
+}
+
+.img_artists {
+    width: 1.5rem;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card:hover {
+    background-color: var(--rose);
+}
+
+.cartes {
+   width: 140%; 
+   padding: 1rem;
+}
+
+
 /*Section Hero*/
