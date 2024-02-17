@@ -12,7 +12,6 @@
 footer {
     background-color: var(--brun);
     padding: 1rem;
-    margin-top: 1rem;
     text-align: center;
     color: var(--blanc);
     bottom: 0;
@@ -28,9 +27,14 @@ a[href*="github"]:hover {
     color: var(--rouge);
 }
 
+#fonctionnalites {
+    background-color: var(--rose);
+}
+
 /*Section Hero*/
 #hero {
-    margin-top: 6rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }
 
 .titre1 {
