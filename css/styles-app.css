@@ -1,4 +1,7 @@
 /*Styles Generaux*/
+html {
+    overflow-y: scroll;
+}
 
 body {
     overflow-x: hidden;
@@ -22,7 +25,7 @@ footer {
     padding: 1rem;
     margin-top: 1rem;
     text-align: center;
-    position: fixed;
+   
     bottom: 0;
     width: 100%;
     text-decoration: none;
@@ -70,7 +73,7 @@ h3 {
     width: 1.5rem;
 }
 
-.card {
+.En_vedette {
     max-width: 200px;
 }
 
@@ -81,6 +84,10 @@ h3 {
 .cartes {
    width: 140%; 
    padding: 1rem;
+}
+
+.card {
+   margin-top: 2rem;
 }
 
 
