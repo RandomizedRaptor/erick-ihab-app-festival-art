@@ -14,21 +14,21 @@ h1, .h1 {
     font-size: 40px;
     font-weight: 900;
     font-family: var(--oswald);
-    color: var(--brun);
+    color: var(--bs-dark);
 }
 
 h2, .h2 {
     font-size: 34px;
     font-weight: 800;
     font-family: var(--oswald);
-    color: var(--brun);
+    color: var(--bs-dark);
 }
 
 h3, .h3 {
     font-size: 28px;
     font-weight: 700;
     font-family: var(--oswald);
-    color: var(--brun);
+    color: var(--bs-dark);
     text-decoration: none;
 }
 
@@ -36,23 +36,19 @@ h4, .h4 {
     font-size: 22px;
     font-weight: 600;
     font-family: var(--oswald);
-    color: var(--brun);
+    color: var(--bs-dark);
 }
 
 h5, .h5 {
     font-size: 16px;
     font-weight: 500;
     font-family: var(--oswald);
-    color: var(--brun);
+    color: var(--bs-dark);
 }
 
 h6, .h6 {
     font-size: 10px;
     font-weight: 400;
     font-family: var(--oswald);
-    color: var(--brun);
+    color: var(--bs-dark);
 }
-
-/*Styles Generaux*/
-
-/*Section Hero*/
