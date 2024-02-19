@@ -1,6 +1,6 @@
 /*Styles Generaux*/
 #navbar1 {
-    background-color: var(--rose);
+    background-color: var(--bs-info);
     width: 100%;
     margin-bottom: 1rem;
 }
@@ -10,25 +10,25 @@
 }
 
 footer {
-    background-color: var(--brun);
+    background-color: var(--bs-dark);
     padding: 1rem;
     text-align: center;
-    color: var(--blanc);
+    color: var(--bs-light);
     bottom: 0;
 }
 
 a[href*="github"] {
     text-decoration: none;
-    color: var(--noir);
+    color: var(--bs-light);
     transition: color 0.3s ease-in-out;
 }
 
 a[href*="github"]:hover {
-    color: var(--rouge);
+    color: var(--bs-primary);
 }
 
 #fonctionnalites {
-    background-color: var(--rose);
+    background-color: var(--bs-info);
 }
 
 /*Section Hero*/
@@ -52,7 +52,7 @@ a[href*="github"]:hover {
 
 .btn {
     color: var(--blanc);
-    background-color: var(--rouge);
+    background-color: var(--bs-primary);
     margin: 15px 15px 25px;
     width: 70%;
     border-radius: 50px;
@@ -75,12 +75,12 @@ a[href*="github"]:hover {
 .card {
     border: none;
     border-radius: 28px;
-    background-color: var(--rouge);
-    color: var(--blanc);
+    background-color: var(--bs-primary);
+    color: var(--bs-light);
 }
 
 h3 {
-    color: var(--blanc);
+    color: var(--bs-light);
 }
 
 iframe {
@@ -89,7 +89,7 @@ iframe {
 }
 
 .white {
-    color: var(--blanc);
+    color: var(--bs-light);
 }
 
 .temoin {
