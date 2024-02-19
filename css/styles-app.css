@@ -31,6 +31,10 @@ footer {
     text-decoration: none;
 }
 
+.container {
+    overflow-x: hidden;
+}
+
 .texte {
     color: var(--rose);
     
@@ -73,7 +77,7 @@ h3 {
     width: 1.5rem;
 }
 
-.En_vedette {
+.en_vedette {
     max-width: 200px;
 }
 
@@ -88,6 +92,10 @@ h3 {
 
 .card {
    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 
