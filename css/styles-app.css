@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: var(--rose);
+    background-color: var(--bs-info);
     
 }
 
@@ -21,7 +21,7 @@ nav {
 }
 
 footer {
-    background-color: var(--brun);
+    background-color: var(--bs-dark);
     padding: 1rem;
     margin-top: 1rem;
     text-align: center;
@@ -36,7 +36,7 @@ footer {
 }
 
 .texte {
-    color: var(--rose);
+    color: var(--bs-info);
     
     
 }
@@ -47,7 +47,7 @@ footer {
 
 
 .navbar-toggler {
-    color: var(--rouge);
+    color: var(--bs-primary);
 }
 
 .filters {
@@ -64,9 +64,7 @@ ul {
 
 .card-img-top {
     height: 20vh;
-    object-fit: fill;
-    
-    
+    object-fit: fill; 
 }
 
 h3 {
@@ -82,7 +80,7 @@ h3 {
 }
 
 .card:hover {
-    background-color: var(--rose);
+    background-color: var(--bs-info);
 }
 
 .cartes {
