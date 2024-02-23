@@ -50,9 +50,8 @@ a[href*="github"]:hover {
     margin: 22px;
 }
 
-.btn {
+#btn-tele {
     color: var(--bs-light);
-    background-color: var(--bs-primary);
     margin: 15px 15px 25px;
     width: 70%;
     border-radius: 50px;
@@ -63,6 +62,17 @@ a[href*="github"]:hover {
     font-family: var(--noto-sans);
     display: flex;
     justify-content: center;
+}
+
+.btn {
+    color: var(--bs-light);
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--noto-sans);
 }
 
 .cadre {
@@ -128,4 +138,10 @@ iframe {
     background-color: var(--bs-light);
     border-radius: 28px;
     opacity: 90%;
+}
+
+.form i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
