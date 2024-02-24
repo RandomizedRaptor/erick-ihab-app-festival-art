@@ -50,4 +50,65 @@ a {
     height: 33vh;
 }
 
-/*Section Hero*/
+.section {
+    margin-top: 1rem;
+    background-color: var(--bs-light);
+    position: relative;
+    z-index: 1;
+    border-radius: 11px;
+}
+
+
+.info {
+    margin-left: 2rem;
+   
+}
+
+.artiste {
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--bs-dark);
+    border-radius: 6px;
+    
+}
+
+h2 {
+    color: var(--bs-light);
+    margin-left: 0.5rem;
+}
+
+.card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h5 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.accordion {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+label {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+

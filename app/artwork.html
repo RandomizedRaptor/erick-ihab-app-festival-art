@@ -13,6 +13,16 @@
     <script src="/js/script.js"></script> 
 </head>
 <body>
+
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          </div>
+        </div>
+      </div>
+
+
+      
     <header>
         <nav class="navbar navbar-light navbar-expand-lg fixed-top">
             <div class="container">
@@ -69,9 +79,88 @@
            <img src="/assets/artworks/oeuvre_4.png">
         </div>
 
-        <section class="Title">
+        <div class="section">
+            <div class="info">
             <h1>Shin Godzilla</h1>
-        </section>
+             <div class="row justify-content-start">
+                <div class="col-3">
+            <i class="bi bi-geo-alt"> Tokyo, Japon </i>
+               </div>
+               <div class="col-8">
+            <i class="bi bi-calendar-week"> 10-25 mars 2024</i>
+               </div>
+            </div>
+        </div>
+        <div class="artiste"> 
+            <h2>Artiste</h2>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="/assets/artists/anno.png" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Hideaki Anno</h4>
+                    <p class="card-text"> Hideaki Anno est un réalisateur et un animateur japonais. Il est le créateur de la franchise Evangelion, mais il a aussi aider à mettre en scène et écrire The Wind Rises, une production de Studio Ghibli</p>
+                    <button type="button" class="btn btn-outline-primary">En savoir plus</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="artiste"> 
+            <h2>Artiste</h2>
+        </div>
+        <h5>Shin Godzilla est un film japonais mettant en vedette le célebre Kaiju avec une approche différente de ces prédecesseurs. Shin est en constante douleur car la radiation le force à évoluer sans cesse.</h5> 
+
+        </div>
+
+        
+
+        <div class="accordion accordion-flush" id="Accordeon">
+
+            <div class="accordion-item">
+          
+              <h2 class="accordion-header" id="entete1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                Réservez votre place
+                </button>
+              </h2>
+          
+              <div id="collapse1" class="accordion-collapse collapse show" 
+              aria-labelledby="entete1" data-bs-parent="#monAccordeon">
+                <div class="accordion-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="Email">Courriel</label>
+                          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="nom@example.com">
+                         
+                        </div>
+                        <div class="form-group">
+                          <label for="Prénom">Prénom</label>
+                          <input type="password" class="form-control" id="Prénom" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Nom">Nom</label>
+                            <input type="password" class="form-control" id="Prénom" placeholder="">
+                          </div>
+
+                        <div class="form-group">
+                            <label for="Date">Date de visite</label>
+                            <input type="password" class="form-control" id="Date" placeholder="jj/mm/aa">
+                            <i class="bi bi-calendar"></i>
+                            
+                            
+                          </div>
+                        
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                      </form>
+                </div>
+              </div>
+          
+            </div>
+          
+          </div>
+       
 
  
    
