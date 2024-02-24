@@ -14,12 +14,25 @@
 </head>
 <body>
 
-    <div class="modal" tabindex="-1">
+    <div class="modal fade" id="savoirplus" tabindex="-1">
+        
         <div class="modal-dialog">
           <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Hideaki Anno</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Hideaki Anno est un cinéaste et homme d'affaires japonais surtout connu pour avoir créé la populaire série animée Neon Genesis Evangelion (1995-1996). 
+                Il est président-directeur général de khara, qu'il a fondé en 2006, ainsi que président de l'organisation à but non lucratif Anime Tokusatsu Archive Center. 
+                Ces dernières années, Anno a dirigé la série de films d'anthologie Shin, dont chacun redémarre et réinvente une importante franchise de science-fiction japonaise. 
+                Cela inclut l'écriture, la réalisation et la co-édition de Shin Godzilla (2016); écriture, réalisation et coproduction d'Evangelion : 3.0+1.0 Thrice Upon A Time (2021) ; 
+                écrire, superviser et coproduire Shin Ultraman (2022) ; et l'écriture et la réalisation de Shin Kamen Rider (2023).</p>
+            </div>
           </div>
         </div>
       </div>
+      
 
 
       
@@ -100,8 +113,8 @@
                 <img src="/assets/artists/anno.png" class="card-img-top">
                 <div class="card-body">
                     <h4 class="card-title">Hideaki Anno</h4>
-                    <p class="card-text"> Hideaki Anno est un réalisateur et un animateur japonais. Il est le créateur de la franchise Evangelion, mais il a aussi aider à mettre en scène et écrire The Wind Rises, une production de Studio Ghibli</p>
-                    <button type="button" class="btn btn-outline-primary">En savoir plus</button>
+                    <p class="card-text"> Hideaki Anno est un cinéaste et homme d'affaires japonais surtout connu pour avoir créé la populaire série animée Neon Genesis Evangelion (1995-1996).</p>
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#savoirplus">En savoir plus</button>
                 </div>
             </div>
         </div>
@@ -120,13 +133,12 @@
             <div class="accordion-item">
           
               <h2 class="accordion-header" id="entete1">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Fermer" aria-expanded="true" aria-controls="collapse1">
                 Réservez votre place
                 </button>
               </h2>
           
-              <div id="collapse1" class="accordion-collapse collapse show" 
-              aria-labelledby="entete1" data-bs-parent="#monAccordeon">
+              <div id="Fermer" class="accordion-collapse collapse show" aria-labelledby="entete1" data-bs-parent="#Accordeon">
                 <div class="accordion-body">
                     <form>
                         <div class="form-group">
@@ -170,10 +182,10 @@
     <footer>
         <div class="container justify-content-center">
             <div class="row">
-                <div class="col-6 col-sm-12">
+                <div class="col-4 col-sm-12">
         <a class="texte">Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Marie-Michelle Ouellet</a>
     </div>
-    <div class="col-6 col-sm-12">
+    <div class="col-8 col-sm-12">
         <img src="/assets/logo/TIM.png" class="TIM">
     </div>
     </div>
