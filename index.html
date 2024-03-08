@@ -6,14 +6,14 @@
   <meta name="robots" content="noindex" />
   <title>Japan Media Arts Festival</title>
   <link rel="icon" type="image" href="./assets/Icon/jmaf.png">
-  <link rel="stylesheet" href="/scss/custom_bootstrap.css" />
+  <link rel="stylesheet" href="./scss/custom_bootstrap.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/styles-lp.css" />
-  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/styles-lp.css" />
+  <script src="./js/script.js"></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar1">
@@ -21,7 +21,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Restez informé !</h5>
+          <h3 class="modal-info">Restez informé !</h3>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -30,9 +30,13 @@
             <input type="email" class="ps-5 py-2 w-100" placeholder="Votre adresse courriel">
           </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
-          <button type="button" class="btn btn-primary">M'inscrire</button>
+        <div class="modal-footer justify-content-between">
+          <div class="modal-button">
+            <button type="button" class="btn btn-secondary btn-modal" data-bs-dismiss="modal">Annuler</button>
+          </div>
+          <div class="modal-button">
+            <button type="button" class="btn btn-primary btn-modal">M'inscrire</button>
+          </div>
         </div>
       </div>
     </div>
@@ -41,7 +45,7 @@
     <nav id="navbar1" class="navbar navbar-light navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#top" class="nav-link">
-          <img src="/assets/logo/logo.png" class="logo" />
+          <img src="./assets/logo/logo.png" class="logo" />
         </a>
 
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
@@ -78,14 +82,14 @@
           <h1 class="titre1">
             Besoin de plus d'informations à portée de main?
           </h1>
-          <h6 class="titre2">
+          <h2 class="titre2">
             Notre nouvelle application a tout ce dont vous avez besoin
-          </h6>
+          </h2>
           <button id="btn-tele" class="btn btn-primary">Télécharger ici</button>
         </div>
         <div class="col-12 col-lg-3 offset-lg-1">
           <div class="cadre">
-            <iframe src="/app/index.html"></iframe>
+            <iframe src="./app/index.html"></iframe>
           </div>
         </div>
       </div>
@@ -198,7 +202,7 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-3 p-3">
           <div class="card">
-            <img src="/assets/Icon/christian-buehner-DItYlc26zVI-unsplash.jpg" class="card-img-top, img-fluid, temoin">
+            <img src="./assets/Icon/christian-buehner-DItYlc26zVI-unsplash.jpg" class="card-img-top, img-fluid, temoin">
             <div class="card-body m-3">
               <i class="bi bi-chat-square-quote h2 white"></i>
               <h3>Christian Buehner</h3>
@@ -209,7 +213,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 p-3">
           <div class="card">
-            <img src="/assets/Icon/craig-mckay-jmURdhtm7Ng-unsplash (1).jpg" class="card-img-top, img-fluid, temoin">
+            <img src="./assets/Icon/craig-mckay-jmURdhtm7Ng-unsplash (1).jpg" class="card-img-top, img-fluid, temoin">
             <div class="card-body m-3">
               <i class="bi bi-chat-square-quote h2 white"></i>
               <h3>Craig McKay</h3>
@@ -220,7 +224,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 p-3">
           <div class="card">
-            <img src="/assets/Icon/jake-nackos-IF9TK5Uy-KI-unsplash.jpg" class="card-img-top, img-fluid, temoin">
+            <img src="./assets/Icon/jake-nackos-IF9TK5Uy-KI-unsplash.jpg" class="card-img-top, img-fluid, temoin">
             <div class="card-body m-3">
               <i class="bi bi-chat-square-quote h2 white"></i>
               <h3>Jake Nackos</h3>
@@ -231,7 +235,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 p-3">
           <div class="card">
-            <img src="/assets/Icon/leilani-angel-K84vnnzxmTQ-unsplash.jpg" class="card-img-top, img-fluid, temoin">
+            <img src="./assets/Icon/leilani-angel-K84vnnzxmTQ-unsplash.jpg" class="card-img-top, img-fluid, temoin">
             <div class="card-body m-3">
               <i class="bi bi-chat-square-quote h2 white"></i>
               <h3>Leilani Angel</h3>
@@ -242,7 +246,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 offset-lg-3 p-3">
           <div class="card">
-            <img src="/assets/Icon/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" class="card-img-top, img-fluid, temoin"
+            <img src="./assets/Icon/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" class="card-img-top, img-fluid, temoin"
               id="matheus">
             <div class="card-body m-3">
               <i class="bi bi-chat-square-quote h2 white"></i>
@@ -254,7 +258,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 p-3">
           <div class="card">
-            <img src="/assets/Icon/ransford-quaye-DzAFv1iVMGg-unsplash.jpg" class="card-img-top, img-fluid, temoin"
+            <img src="./assets/Icon/ransford-quaye-DzAFv1iVMGg-unsplash.jpg" class="card-img-top, img-fluid, temoin"
               id="ransford">
             <div class="card-body m-3">
               <i class="bi bi-chat-square-quote h2 white"></i>
@@ -349,7 +353,7 @@
       <div class="container py-5">
         <div class="row py-5">
           <div id="col-info" class="col-12 col-md-6 offset-md-6 p-5 d-flex flex-column align-items-md-start justify-content-center align-items-center">
-            <h2 class="pt-5 text-center">Infolettre</h2>
+            <h2 class="pt-2 text-center">Infolettre</h2>
             <p class="text-center text-md-start">Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les
               mises-à-jour et nouvelles fonctionnalités de
               l'appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
@@ -360,7 +364,7 @@
     </div>
   </main>
   <footer>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-lg-6 order-lg-1">Érick Ouellette</div>
         <div class="col-lg-6 order-lg-3">Ihab Mouhajer</div>
