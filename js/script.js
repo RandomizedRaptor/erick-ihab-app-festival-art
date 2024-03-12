@@ -8,7 +8,7 @@ const swiper = new Swiper('.swiper-screenshots', {
         1200: {
         slidesPerView: 2,
         spaceBetween: 25,
-      },
+      }},
   
     // Navigation arrows
     navigation: {

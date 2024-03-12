@@ -79,10 +79,6 @@ iframe {
     object-position: 100% 35%;
 }
 
-#FAQ {
-    background: var(--bs-light);
-}
-
 .accordion-button {
     background-color: var(--bs-primary) !important;
     color: var(--bs-light) !important;
