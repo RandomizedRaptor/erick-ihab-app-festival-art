@@ -40,30 +40,21 @@ footer {
     
 }
 
-.form {
-    margin-top: -7rem;
-}
+
 
 
 .navbar-toggler {
     color: var(--bs-primary);
 }
 
-.filters {
-    overflow: hidden;
-    margin-top: 10rem;
-    display: flex;
-    justify-content: space-between;
-}
 
-ul {
-    list-style: none;
-}
+
+
 
 
 .card-img-top {
     height: 20vh;
-    object-fit: fill; 
+    object-fit: cover; 
 }
 
 h3 {
@@ -84,17 +75,21 @@ h3 {
 
 .cartes {
    width: 140%; 
-   padding: 1rem;
+   
 }
 
 .card {
-   margin-top: 2rem;
+   margin-top: 1rem;
 }
 
 a {
     text-decoration: none;
 }
 
+
+.swiper-slide {
+    width: auto;
+}
 
 
 /*Section Hero*/

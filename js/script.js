@@ -20,3 +20,9 @@ const mySwiper = new Swiper('.swiper-screenshots', {
       prevEl: '.swiper-button-prev',
     },
 });
+
+
+const swiper = new Swiper('.swiper-filters', {
+  direction: 'horizontal',
+  centeredSlides: true
+})

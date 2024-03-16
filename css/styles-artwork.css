@@ -67,9 +67,9 @@ a {
 }
 
 .artiste {
-    margin-top: 3.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     background-color: var(--bs-primary);
     border-radius: 6px;
     
@@ -81,13 +81,13 @@ h2 {
 }
 
 .card {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 h5 {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .accordion {

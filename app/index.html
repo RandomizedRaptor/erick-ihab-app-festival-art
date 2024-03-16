@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="../scss/custom_bootstrap.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/styles-app.css">
-    
     <script src="../js/script.js"></script> 
 </head>
 <body>
@@ -62,37 +63,9 @@
     </header>
     <main>
 
-        
-       <div class="container">
 
-        <!-- Boutons -->
-        
-        <div class="row">
-
-            <ul class="filters">
-            <li>
-                <button type="button" class="btn btn-outline-primary">Toutes</button>
-            </li>
-        <li>
-            <button type="button" class="btn btn-outline-primary">Cinéma</button>
-        </li>
-        <li>
-            <button type="button" class="btn btn-outline-primary">Jeux</button>
-        </li>
-        <li>
-            <button type="button" class="btn btn-outline-primary">Concert</button>
-        </li>
-        <li>
-            <button type="button" class="btn btn-outline-primary">Performances</button>
-        </li>
-        <li>
-            <button type="button" class="btn btn-outline-primary">Prix</button>
-        </li>
-    </ul>
-        </div>
-         
         <!-- Search Bar -->
-        <div class="row">
+        <div class="row mt-5">
             <form class="form">
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1"> <i class="bi-search"></i> </span>
@@ -103,10 +76,59 @@
             </form>
         </div>
 
+        
+
+        
+       <div class="container">
+
+        <!-- Boutons -->
+        <section class="Boutons">
+            <div class="row pt-5">
+
+                    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <button type="button" class="btn btn-outline-primary">Toutes</button>
+        </div>
+        <div class="swiper-slide">
+            <button type="button" class="btn btn-outline-primary">Cinéma</button>
+        </div>
+        <div class="swiper-slide">
+            <button type="button" class="btn btn-outline-primary">Jeux</button>
+        </div>
+        <div class="swiper-slide">
+            <button type="button" class="btn btn-outline-primary">Concert</button>
+        </div>
+        <div class="swiper-slide">
+            <button type="button" class="btn btn-outline-primary">Performances</button>
+        </div>
+        <div class="swiper-slide">
+            <button type="button" class="btn btn-outline-primary">Prix</button>
+        </div>
+        <div class="swiper-slide">
+            <button type="button" class="btn btn-outline-primary">Ar / Vr</button>
+        </div>
+        
+    </div>
+      <div class="swiper-filters"></div>
+</div>
+</div>
+            
+        </section>
+
+
+        
+     
+         
+        
+
         <!-- Cartes -->
           <section id="en_vedette" class="cartes">
             
-            <div class="row">
+            <div class="row pt-5">
                 <h2>En vedette</h2>
     
                 <div class="col-4">
@@ -204,7 +226,7 @@
             </div>
         </section>
 
-          <div class="row">
+          <div class="row pt-3">
             
             <h2>Autres oeuvres et performances</h2>
             <div class="Autres">
