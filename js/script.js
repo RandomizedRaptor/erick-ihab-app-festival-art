@@ -22,7 +22,19 @@ const mySwiper = new Swiper('.swiper-screenshots', {
 });
 
 
-const swiper = new Swiper('.swiper-filters', {
-  direction: 'horizontal',
-  centeredSlides: true
-})
+const swiper_filters = new Swiper('.swiper-filters', {
+  direction: "horizontal",
+  slidesPerView: "auto",
+  freeMode: true,
+  spaceBetween: 10,
+  centeredSlides: true,
+  initialSlide: 2,
+});
+
+
+const swiper_featured = new Swiper('.swiper-featured-artworks', {
+  direction: "horizontal",
+  slidesPerView: 3,
+  freeMode: true,
+  spaceBetween: 180,
+});

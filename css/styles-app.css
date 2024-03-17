@@ -74,13 +74,13 @@ h3 {
 }
 
 .cartes {
-   width: 140%; 
+   overflow: hidden;
    
 }
 
 .card {
-   margin-top: 1rem;
-}
+    margin-top: 1rem;
+ }
 
 a {
     text-decoration: none;
