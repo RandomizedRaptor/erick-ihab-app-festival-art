@@ -13,9 +13,12 @@ nav {
 }
 
 
-.icon {
+.like {
     width: 40px;
-    margin-top: 0.25rem;
+    height: 40px;
+    border-radius: 22px;
+    
+    
 }
 
 footer {
