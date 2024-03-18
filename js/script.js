@@ -1,15 +1,4 @@
-let likebutton = document.querySelector(".like");
-let coeur = document.querySelector(".heart-icon");
 
-likebutton.addEventListener("click", function(){
-  if (coeur.classList.contains("bi-heart-fill")) {
-    coeur.classList.add("bi-heart");
-    coeur.classList.remove("bi-heart-fill");
-  } else if (coeur.classList.contains("bi-heart")) {
-    coeur.classList.add("bi-heart-fill");
-    coeur.classList.remove("bi-heart");
-  }
-});
 
 
 const mySwiper = new Swiper('.swiper-screenshots', {
