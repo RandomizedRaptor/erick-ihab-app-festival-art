@@ -1,195 +1,194 @@
 /*Styles Generaux*/
 #navbar1 {
-    background-color: var(--bs-info);
-    width: 100%;
-    margin-bottom: 1rem;
+  background-color: var(--bs-info);
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .logo {
-    width: 200px;
+  width: 200px;
 }
 
 footer {
-    background-color: var(--bs-dark);
-    padding: 1rem;
-    color: var(--bs-light);
-    bottom: 0;
+  background-color: var(--bs-dark);
+  padding: 1rem;
+  color: var(--bs-light);
+  bottom: 0;
 }
 
 a[href*="github"] {
-    text-decoration: none;
-    color: var(--bs-light);
-    transition: color 0.3s ease-in-out;
+  text-decoration: none;
+  color: var(--bs-light);
+  transition: color 0.3s ease-in-out;
 }
 
 a[href*="github"]:hover {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
 #fonctionnalites {
-    background-color: var(--bs-info);
+  background-color: var(--bs-info);
 }
 
 #temoignages {
-    background-color: var(--bs-info);
+  background-color: var(--bs-info);
 }
 
 .btn {
-    color: var(--bs-light);
-    width: 50%;
-    border-radius: 50px;
-    border: none;
-    padding: 12px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: var(--noto-sans);
+  color: var(--bs-light);
+  width: 50%;
+  border-radius: 50px;
+  border: none;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--noto-sans);
 }
 
 .card {
-    border: none;
-    border-radius: 28px;
-    background-color: var(--bs-primary);
-    color: var(--bs-light);
+  border: none;
+  border-radius: 28px;
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
 }
 
 h3 {
-    color: var(--bs-light);
+  color: var(--bs-light);
 }
 
 iframe {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .white {
-    color: var(--bs-light);
+  color: var(--bs-light);
 }
 
 .temoin {
-    height: 25vh;
-    border-radius: 28px 28px 0 0;
-    object-fit: cover;
+  height: 25vh;
+  border-radius: 28px 28px 0 0;
+  object-fit: cover;
 }
 
 #matheus {
-    object-position: 100% 22%;
+  object-position: 100% 22%;
 }
 
 #ransford {
-    object-position: 100% 35%;
+  object-position: 100% 35%;
 }
 
 .accordion-button {
-    background-color: var(--bs-primary) !important;
-    color: var(--bs-light) !important;
+  background-color: var(--bs-primary) !important;
+  color: var(--bs-light) !important;
 }
 
 .accordion {
-    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 #infolettre {
-    background-image: url(../assets/Icon/shibuya.jpg);
+  background-image: url(../assets/Icon/shibuya.jpg);
 }
 
 #col-info {
-    background-color: var(--bs-light);
-    border-radius: 28px;
-    opacity: 90%;
+  background-color: var(--bs-light);
+  border-radius: 28px;
+  opacity: 90%;
 }
 
 .modal-info {
-    color: var(--bs-dark);
+  color: var(--bs-dark);
 }
 
-.form i{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.form i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .modal-button {
-    width: 48%;
+  width: 48%;
 }
 
 .btn-modal {
-    width: 100%;
+  width: 100%;
 }
 
 .swiper-slide-img {
-    border: solid var(--bs-dark);
-    border-radius: 6px;
-    box-shadow: 0px 2px 4px 6px rgba(0,0,0,0.25);
+  border: solid var(--bs-dark);
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px 6px rgba(0, 0, 0, 0.25);
 }
 
 .slider-wrap {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .swiper-container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
-    text-align: center;
+  text-align: center;
 }
-  
+
 .swiper-slide {
-    opacity: .5;
+  opacity: 0.5;
 }
-  
+
 .swiper-slide-active {
-    opacity: 1;
+  opacity: 1;
 }
 
 .swiper-button-prev {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
 .swiper-button-next {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
 /*Section Hero*/
 #hero {
-    margin-top: 7rem;
-    margin-bottom: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
 }
 
 .titre1 {
-    font-family: var(--oswald);
-    font-size: 48px;
-    margin: 15px;
+  font-family: var(--oswald);
+  font-size: 48px;
+  margin: 15px;
 }
 
 .titre2 {
-    font-family: var(--noto-sans);
-    color: var(--gris);
-    font-size: 28px;
-    margin: 22px;
+  font-family: var(--noto-sans);
+  color: var(--gris);
+  font-size: 28px;
+  margin: 22px;
 }
 
 #btn-tele {
-    color: var(--bs-light);
-    margin: 15px 15px 25px;
-    width: 70%;
-    border-radius: 50px;
-    border: none;
-    padding: 15px;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: var(--noto-sans);
-    display: flex;
-    justify-content: center;
+  color: var(--bs-light);
+  margin: 15px 15px 25px;
+  width: 70%;
+  border-radius: 50px;
+  border: none;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--noto-sans);
+  display: flex;
+  justify-content: center;
 }
 
 .cadre {
-    width: 100%;
-    aspect-ratio: 5/9;
-    border-radius: 6px;
-    box-shadow: 0px 2px 4px 6px rgba(0,0,0,0.25);
+  width: 100%;
+  aspect-ratio: 5/9;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px 6px rgba(0, 0, 0, 0.25);
 }
-

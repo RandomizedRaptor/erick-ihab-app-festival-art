@@ -1,100 +1,85 @@
 /*Styles Generaux*/
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 nav {
-    background-color: var(--bs-info);
-    
+  background-color: var(--bs-info);
 }
 
 .logo {
-    width: 150px;
+  width: 150px;
 }
 
 .icon {
-    width: 50px;
+  width: 50px;
 }
 
 footer {
-    background-color: var(--bs-dark);
-    padding: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    text-decoration: none;
+  background-color: var(--bs-dark);
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  text-decoration: none;
 }
 
 .container {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .texte {
-    color: var(--bs-info);
-    
-    
+  color: var(--bs-info);
 }
-
-
-
 
 .navbar-toggler {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
-
-
-
-
-
 .card-img-top {
-    height: 20vh;
-    object-fit: cover; 
+  height: 20vh;
+  object-fit: cover;
 }
 
 h3 {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .img_artists {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
 .en_vedette {
-    min-width: 220px
+  min-width: 220px;
 }
 
 .card:hover {
-    background-color: var(--bs-info);
+  background-color: var(--bs-info);
 }
 
 .cartes {
-   overflow: hidden;
-   
+  overflow: hidden;
 }
 
 .card {
-    margin-top: 1rem;
-    
- }
-
-a {
-    text-decoration: none;
+  margin-top: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
 
 .swiper-slide {
-    width: auto;
+  width: auto;
 }
 
 .TIM {
-    width: 15rem;
+  width: 15rem;
 }
-
 
 /*Section Hero*/

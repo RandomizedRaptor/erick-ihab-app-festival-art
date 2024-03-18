@@ -1,54 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap");
 
 :root {
-    --brun: #221614;
-    --rouge: #E80114;
-    --gris: #B0B0B0;
-    --rose: #F7DEE0;
-    --blanc: #FFFFFF;
-    --noto-sans: 'Noto Sans', sans-serif;
-    --oswald: 'Oswald', sans-serif;
+  --brun: #221614;
+  --rouge: #e80114;
+  --gris: #b0b0b0;
+  --rose: #f7dee0;
+  --blanc: #ffffff;
+  --noto-sans: "Noto Sans", sans-serif;
+  --oswald: "Oswald", sans-serif;
 }
 
-h1, .h1 {
-    font-size: 40px;
-    font-weight: 900;
-    font-family: var(--oswald);
-    color: var(--bs-dark);
+h1,
+.h1 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: var(--oswald);
+  color: var(--bs-dark);
 }
 
-h2, .h2 {
-    font-size: 34px;
-    font-weight: 800;
-    font-family: var(--oswald);
-    color: var(--bs-dark);
+h2,
+.h2 {
+  font-size: 34px;
+  font-weight: 800;
+  font-family: var(--oswald);
+  color: var(--bs-dark);
 }
 
-h3, .h3 {
-    font-size: 28px;
-    font-weight: 700;
-    font-family: var(--oswald);
-    color: var(--bs-dark);
-    text-decoration: none;
+h3,
+.h3 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: var(--oswald);
+  color: var(--bs-dark);
+  text-decoration: none;
 }
 
-h4, .h4 {
-    font-size: 22px;
-    font-weight: 600;
-    font-family: var(--oswald);
-    color: var(--bs-dark);
+h4,
+.h4 {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--oswald);
+  color: var(--bs-dark);
 }
 
-h5, .h5 {
-    font-size: 16px;
-    font-weight: 500;
-    font-family: var(--oswald);
-    color: var(--bs-dark);
+h5,
+.h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--oswald);
+  color: var(--bs-dark);
 }
 
-h6, .h6 {
-    font-size: 10px;
-    font-weight: 400;
-    font-family: var(--oswald);
-    color: var(--bs-dark);
+h6,
+.h6 {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: var(--oswald);
+  color: var(--bs-dark);
 }

@@ -1,199 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="robots" content="noindex" />
     <title>Japan Media Arts Festival</title>
-    <link rel="stylesheet" href="../scss/custom_bootstrap.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/styles-artwork.css">
-    
-    <script src="../js/script.js"></script> 
-</head>
-<body>
+    <link rel="stylesheet" href="../scss/custom_bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/styles-artwork.css" />
 
+    <script src="../js/script.js"></script>
+  </head>
+  <body>
     <div class="modal fade" id="savoirplus" tabindex="-1">
-        
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Hideaki Anno</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Hideaki Anno</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Hideaki Anno est un cinéaste et homme d'affaires japonais surtout
+              connu pour avoir créé la populaire série animée Neon Genesis
+              Evangelion (1995-1996). Il est président-directeur général de
+              khara, qu'il a fondé en 2006, ainsi que président de
+              l'organisation à but non lucratif Anime Tokusatsu Archive Center.
+              Ces dernières années, Anno a dirigé la série de films d'anthologie
+              Shin, dont chacun redémarre et réinvente une importante franchise
+              de science-fiction japonaise. Cela inclut l'écriture, la
+              réalisation et la co-édition de Shin Godzilla (2016); écriture,
+              réalisation et coproduction d'Evangelion : 3.0+1.0 Thrice Upon A
+              Time (2021) ; écrire, superviser et coproduire Shin Ultraman
+              (2022) ; et l'écriture et la réalisation de Shin Kamen Rider
+              (2023).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+        <div class="container">
+          <!-- Hamburger button -->
+
+          <div id="nav-item">
+            <a href="../app/index.html">
+              <button class="back mt-1">
+                <i class="bi bi-chevron-compact-left"></i>
+              </button>
+            </a>
+          </div>
+
+          <div id="nav-item">
+            <button class="like mt-1">
+              <i class="bi bi-heart heart icon"></i>
+            </button>
+          </div>
+
+          <!-- Navigation -->
+          <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Programmation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Oeuvres</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Programmation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Présentation des artistes</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Amis sur carte interactive</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="gojira">
+        <img src="../assets/artworks/oeuvre_4.png" />
+      </div>
+
+      <section class="section mt-3">
+        <div class="info mx-3">
+          <h1>Shin Godzilla</h1>
+          <div class="row justify-content-start">
+            <div class="col-6">
+              <i class="bi bi-geo-alt"> Tokyo, Japon </i>
             </div>
-            <div class="modal-body">
-              <p>Hideaki Anno est un cinéaste et homme d'affaires japonais surtout connu pour avoir créé la populaire série animée Neon Genesis Evangelion (1995-1996). 
-                Il est président-directeur général de khara, qu'il a fondé en 2006, ainsi que président de l'organisation à but non lucratif Anime Tokusatsu Archive Center. 
-                Ces dernières années, Anno a dirigé la série de films d'anthologie Shin, dont chacun redémarre et réinvente une importante franchise de science-fiction japonaise. 
-                Cela inclut l'écriture, la réalisation et la co-édition de Shin Godzilla (2016); écriture, réalisation et coproduction d'Evangelion : 3.0+1.0 Thrice Upon A Time (2021) ; 
-                écrire, superviser et coproduire Shin Ultraman (2022) ; et l'écriture et la réalisation de Shin Kamen Rider (2023).</p>
+            <div class="col-6">
+              <i class="bi bi-calendar-week"> 10-25 mars 2024</i>
+            </div>
+          </div>
+        </div>
+        <div class="artiste m-3">
+          <h2>Artiste</h2>
+        </div>
+
+        <div class="col">
+          <div class="card mx-3">
+            <img src="../assets/artists/anno.png" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Hideaki Anno</h4>
+              <p class="card-text">
+                Hideaki Anno est un cinéaste et homme d'affaires japonais
+                surtout connu pour avoir créé la populaire série animée Neon
+                Genesis Evangelion (1995-1996).
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#savoirplus"
+              >
+                En savoir plus
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="artiste m-3">
+          <h2>À propos de l'oeuvre</h2>
+        </div>
+        <h5>
+          Shin Godzilla est un film japonais mettant en vedette le célebre Kaiju
+          avec une approche différente de ces prédecesseurs. Shin est en
+          constante douleur car la radiation le force à évoluer sans cesse.
+        </h5>
+      </section>
+
+      <div class="accordion accordion-flush m-3" id="Accordeon">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="entete1">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#Fermer"
+              aria-expanded="true"
+              aria-controls="collapse1"
+            >
+              Réservez votre place
+            </button>
+          </h2>
+
+          <div
+            id="Fermer"
+            class="accordion-collapse collapse show"
+            aria-labelledby="entete1"
+            data-bs-parent="#Accordeon"
+          >
+            <div class="accordion-body">
+              <form>
+                <div class="form-group">
+                  <label for="Email">Courriel</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="Email"
+                    aria-describedby="emailHelp"
+                    placeholder="nom@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="Prénom">Prénom</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="Prénom"
+                    placeholder=""
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="Nom">Nom</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="Prénom"
+                    placeholder=""
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="Date">Date de visite</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="Date"
+                    placeholder="jj/mm/aa"
+                  />
+                </div>
+
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-      
-
-
-      
-    <header>
-        <nav class="navbar navbar-light navbar-expand-lg fixed-top">
-            <div class="container">
-                
-                <!-- Hamburger button -->
-                
-
-                <div id="nav-item">
-                    <a href="../app/index.html">
-                        <button class="back mt-1">
-                            <i class="bi bi-chevron-compact-left"></i>
-                        </button>
-                      </a>
-                    
-                    
-                </div> 
-
-
-                <div id="nav-item">
-                  <button class="like mt-1">
-                    <i class="bi bi-heart heart icon"></i>
-                  </button>
-                </div>
-
-                  <!-- Navigation -->
-                  <div id="mainNav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Programmation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Oeuvres</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Programmation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Présentation des artistes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Amis sur carte interactive</a>
-                        </li>
-                    </ul>
-                </div>
-
-                
-            
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="gojira">
-           <img src="../assets/artworks/oeuvre_4.png">
-        </div>
-
-        <section class="section mt-3">
-            <div class="info mx-3">
-            <h1>Shin Godzilla</h1>
-             <div class="row justify-content-start">
-                <div class="col-6">
-            <i class="bi bi-geo-alt"> Tokyo, Japon </i>
-               </div>
-               <div class="col-6">
-            <i class="bi bi-calendar-week"> 10-25 mars 2024</i>
-               </div>
-            </div>
-        </div>
-        <div class="artiste m-3"> 
-            <h2>Artiste</h2>
-        </div>
-
-        <div class="col">
-            <div class="card mx-3">
-                <img src="../assets/artists/anno.png" class="card-img-top">
-                <div class="card-body">
-                    <h4 class="card-title">Hideaki Anno</h4>
-                    <p class="card-text"> Hideaki Anno est un cinéaste et homme d'affaires japonais surtout connu pour avoir créé la populaire série animée Neon Genesis Evangelion (1995-1996).</p>
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#savoirplus">En savoir plus</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="artiste m-3"> 
-            <h2>À propos de l'oeuvre</h2>
-        </div>
-        <h5>Shin Godzilla est un film japonais mettant en vedette le célebre Kaiju avec une approche différente de ces prédecesseurs. Shin est en constante douleur car la radiation le force à évoluer sans cesse.</h5> 
-
-        </section>
-
-        
-
-        <div class="accordion accordion-flush m-3" id="Accordeon">
-
-            <div class="accordion-item">
-          
-              <h2 class="accordion-header" id="entete1">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Fermer" aria-expanded="true" aria-controls="collapse1">
-                Réservez votre place
-                </button>
-              </h2>
-          
-              <div id="Fermer" class="accordion-collapse collapse show" aria-labelledby="entete1" data-bs-parent="#Accordeon">
-                <div class="accordion-body">
-                    <form>
-                        <div class="form-group">
-                          <label for="Email">Courriel</label>
-                          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="nom@example.com">
-                         
-                        </div>
-                        <div class="form-group">
-                          <label for="Prénom">Prénom</label>
-                          <input type="password" class="form-control" id="Prénom" placeholder="">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="Nom">Nom</label>
-                            <input type="password" class="form-control" id="Prénom" placeholder="">
-                          </div>
-
-                        <div class="form-group">
-                            <label for="Date">Date de visite</label>
-                            <input type="date" class="form-control" id="Date" placeholder="jj/mm/aa">
-                            
-                            
-                            
-                          </div>
-                        
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
-                      </form>
-                </div>
-              </div>
-          
-            </div>
-          
-          </div>
-       
-
- 
-   
     </main>
 
-    
     <footer>
-        <div class="container justify-content-center">
-            <div class="row">
-                <div class="col-4 col-sm-12">
-        <a class="texte">Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Marie-Michelle Ouellet</a>
-    </div>
-    <div class="col-8 col-sm-12">
-        <img src="../assets/logo/TIM.png" class="TIM">
-    </div>
-    </div>
-    </div>
+      <div class="container justify-content-center">
+        <div class="row">
+          <div class="col-4 col-sm-12">
+            <a class="texte"
+              >Projet fictif réalisé dans le cadre du cours Optimisation Web
+              582-424MO. UI de l'app créé par Marie-Michelle Ouellet</a
+            >
+          </div>
+          <div class="col-8 col-sm-12">
+            <img src="../assets/logo/TIM.png" class="TIM" />
+          </div>
+        </div>
+      </div>
     </footer>
-    
-    
-</body>
+  </body>
 </html>

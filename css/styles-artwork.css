@@ -1,118 +1,91 @@
 /*Styles Generaux*/
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 nav {
-    background-color: transparent;
-    
+  background-color: transparent;
 }
 
-
 .like {
-    width: 40px;
-    height: 40px;
-    border-radius: 22px;
-    
-    
+  width: 40px;
+  height: 40px;
+  border-radius: 22px;
 }
 
 footer {
-    background-color: var(--bs-dark);
-    padding: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-   
-    bottom: 0;
-    width: 100%;
-    text-decoration: none;
+  background-color: var(--bs-dark);
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+
+  bottom: 0;
+  width: 100%;
+  text-decoration: none;
 }
 
 .texte {
-    color: var(--bs-info);
-    
-    
+  color: var(--bs-info);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .back {
-    border-radius: 25px;
-    width: 40px;
-    height: 40px;
-    
-    
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
 }
 
 .gojira {
-    height: 33vh;
+  height: 33vh;
 }
 
 .section {
-    background-color: var(--bs-light);
-    position: relative;
-    z-index: 1;
-    border-radius: 11px;
+  background-color: var(--bs-light);
+  position: relative;
+  z-index: 1;
+  border-radius: 11px;
 }
 
-
-
-
 .artiste {
-    
-    background-color: var(--bs-primary);
-    border-radius: 6px;
-    
+  background-color: var(--bs-primary);
+  border-radius: 6px;
 }
 
 h2 {
-    color: var(--bs-light);
-    margin-left: 0.5rem;
+  color: var(--bs-light);
+  margin-left: 0.5rem;
 }
 
-
 h5 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .accordion {
-    border-radius: 22px;
+  border-radius: 22px;
 }
 
 label {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 button {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .accordion-button {
-    background-color: var(--bs-primary) !important;
-    color: var(--bs-light) !important;
-    
+  background-color: var(--bs-primary) !important;
+  color: var(--bs-light) !important;
 }
-
 
 .modal {
-    margin-top: 50%;
+  margin-top: 50%;
 }
-
-
-
-
-
-
-
-
-
-
